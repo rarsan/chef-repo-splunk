@@ -1,0 +1,15 @@
+{
+  "name": "splunk_server",
+  "description": "Base Splunk server",
+  "json_class": "Chef::Role",
+  "chef_type": "role",
+  "default_attributes": {
+    "splunk": {
+      "accept_license": true,
+      "is_server": true
+    }
+  },
+  "run_list": [
+    "recipe[chef-splunk]"
+  ]
+}

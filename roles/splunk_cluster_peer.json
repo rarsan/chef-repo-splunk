@@ -1,0 +1,19 @@
+{
+  "name": "splunk_cluster_peer",
+  "description": "Splunk cluster peer server",
+  "json_class": "Chef::Role",
+  "chef_type": "role",
+  "default_attributes": {
+    "splunk": {
+      "accept_license": true,
+      "is_server": true,
+      "clustering" : {
+        "enable": true,
+        "mode": "slave"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[chef-splunk]"
+  ]
+}

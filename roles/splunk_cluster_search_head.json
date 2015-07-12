@@ -1,0 +1,19 @@
+{
+  "name": "splunk_cluster_search_head",
+  "description": "Splunk cluster search head server",
+  "json_class": "Chef::Role",
+  "chef_type": "role",
+  "default_attributes": {
+    "splunk": {
+      "accept_license": true,
+      "is_server": true,
+      "clustering" : {
+        "enable": true,
+        "mode": "searchhead"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[chef-splunk]"
+  ]
+}
