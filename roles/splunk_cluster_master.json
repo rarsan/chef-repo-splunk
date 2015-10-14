@@ -5,15 +5,13 @@
   "chef_type": "role",
   "default_attributes": {
     "splunk": {
-      "accept_license": true,
-      "is_server": true,
       "clustering" : {
-        "enable": true,
+        "enabled": true,
         "mode": "master"
       }
     }
   },
   "run_list": [
-    "recipe[chef-splunk]"
+    "role[splunk_server]"
   ]
 }
