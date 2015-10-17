@@ -7,6 +7,10 @@ A chef repo for Splunk Enterprise cluster provisioning including all required ro
 * chef-vault (~> 1.3.1)
 
 ## Roles
+* `splunk_server`: Generic Splunk Enterprise configuration (used for standalone deployment)
+* `splunk_cluster_master`: Cluster Master configuration in indexer cluster
+* `splunk_cluster_search_head`: Search Head configuration in indexer cluster
+* `splunk_cluster_peer`: Peer configuration in indexer cluster
 
 ### Note about cookbooks packaging:
 Required cookbooks are listed in Berksfile instead of duplicating them in this repo.
@@ -16,6 +20,7 @@ This generated cookbooks archive is included in the repo as berks-package.tar.gz
 Whenever changing Berkshelf file, you need to update the cookbooks archive as follows:
 
     $ cd <>/chef-splunk-repo
+    $ berks update
     $ berks package berks-package.tar.gz
 
 The archive can be:
