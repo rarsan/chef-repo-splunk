@@ -3,7 +3,7 @@
 A chef repo for Splunk Enterprise cluster provisioning including all required roles and dependent cookbooks.
 
 ## Cookbooks
-* chef-splunk (= 1.4.0)
+* chef-splunk (= 1.4.0-rarsan.1)
 * chef-vault (~> 1.3.1)
 
 ## Roles
