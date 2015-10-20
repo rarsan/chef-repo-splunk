@@ -1,4 +1,4 @@
-# chef-repo-splunk
+# Chef Repository for Splunk Enterprise
 
 A chef repo for Splunk Enterprise cluster provisioning including all required roles and dependent cookbooks.
 
@@ -27,6 +27,11 @@ The archive can be:
 * extracted and uploaded to a Chef Server, or
 * extracted and provided to chef-solo using `cookbook_path` config, or
 * extracted and provided to chef-client in local mode along with this repo using `chef_repo_path` config
+
+## Release Notes
+
+* v0.2: Update cookbooks versions (chef-splunk 1.4.0, chef-vault 1.3.1)
+* v0.1: Initial release
 
 
 
