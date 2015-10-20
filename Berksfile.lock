@@ -1,8 +1,8 @@
 DEPENDENCIES
   chef-splunk
-    git: https://github.com/chef-cookbooks/chef-splunk
-    revision: 9e6fcc62e599645c6cc2b2f9b2793a46be7cdb62
-    tag: v1.4.0
+    git: https://github.com/rarsan/chef-splunk
+    revision: e8bf5cbef94016956f17618cbe326fe9bb69cecc
+    branch: feature/default-ssl-certs
   chef-vault (~> 1.3.1)
 
 GRAPH
