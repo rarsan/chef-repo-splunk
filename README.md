@@ -34,9 +34,3 @@ The archive can be:
 * v0.2: Set cookbooks versions (chef-splunk 1.4.0, chef-vault 1.3.1)
 * v0.1: Initial release
 
-
-
-
-
-
-

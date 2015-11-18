@@ -1,0 +1,25 @@
+{
+  "name": "cluster-master",
+  "normal": {
+    "splunk": {
+      "mgmt_port": "8089",
+      "clustering": {
+        "accept_license": true,
+        "is_server": true,
+        "enabled": true,
+        "mode": "master"
+      }
+    }
+  },
+  "automatic": {
+    "ipaddress": "<INSERT_IP_ADDRESS>",
+    "fqdn": "<INSERT_FQDN>",
+    "roles": [
+      "splunk_server",
+      "splunk_cluster_master"
+    ]
+  },
+  "run_list": [
+    "role[splunk_cluster_master]"
+  ]
+}
