@@ -1,6 +1,8 @@
 # Chef Repository for Splunk Enterprise
 
-A chef repo for Splunk Enterprise cluster provisioning including all required roles and dependent cookbooks.
+A Chef repo for Splunk Enterprise cluster provisioning including all required roles and dependent cookbooks.
+
+Placeholder nodes are also provided in case you use Chef local mode. These node files can act as your inventory list: keep the nodes that correspond to your existing or desired Splunk deployment and update their attributes (i.e. 'ipaddress', 'fqdn') to match your environment.
 
 ## Cookbooks
 * chef-splunk (= 1.4.0-rarsan.1)
@@ -11,6 +13,9 @@ A chef repo for Splunk Enterprise cluster provisioning including all required ro
 * `splunk_cluster_master`: Cluster Master configuration in indexer cluster
 * `splunk_cluster_search_head`: Search Head configuration in indexer cluster
 * `splunk_cluster_peer`: Peer configuration in indexer cluster
+
+## Nodes
+* `cluster-master.json`: Cluster Master node (for chef local mode)
 
 ### Note about cookbooks packaging:
 Required cookbooks are listed in Berksfile instead of duplicating them in this repo.
@@ -30,6 +35,7 @@ The archive can be:
 
 ## Release Notes
 
+* v0.4: Add placeholder Chef node for Cluster Master (applicable for chef local mode only)
 * v0.3: Update Chef cookbook version (1.4.0-rarsan.1)
 * v0.2: Set cookbooks versions (chef-splunk 1.4.0, chef-vault 1.3.1)
 * v0.1: Initial release
