@@ -30,7 +30,8 @@ The archive can be:
 
 ## Release Notes
 
-* v0.3: Update Chef cookbook version (1.4.0-rarsan.1)
+* v0.4: Update Chef cookbook version for custom `SPLUNK_DB` path support (1.4.0-rarsan.2)
+* v0.3: Update Chef cookbook version for default SSL certs support (1.4.0-rarsan.1)
 * v0.2: Set cookbooks versions (chef-splunk 1.4.0, chef-vault 1.3.1)
 * v0.1: Initial release
 
