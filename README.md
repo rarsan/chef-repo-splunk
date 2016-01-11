@@ -5,7 +5,7 @@ A Chef repo for Splunk Enterprise cluster provisioning including all required ro
 Placeholder nodes are also provided in case you use Chef local mode. These node files can act as your inventory list: keep the nodes that correspond to your existing or desired Splunk deployment and update their attributes (i.e. 'ipaddress', 'fqdn') to match your environment.
 
 ## Cookbooks
-* chef-splunk (= 1.4.0-rarsan.1)
+* chef-splunk (= 1.4.0-rarsan.3)
 * chef-vault (~> 1.3.1)
 
 ## Roles
