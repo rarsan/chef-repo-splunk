@@ -8,9 +8,6 @@
       "clustering" : {
         "enabled": true,
         "mode": "master"
-      },
-      "server": {
-        "is_license_master": true
       }
     }
   },

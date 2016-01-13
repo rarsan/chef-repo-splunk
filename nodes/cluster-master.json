@@ -3,9 +3,6 @@
   "normal": {
     "splunk": {
       "mgmt_port": "8089",
-      "server": {
-        "is_license_master": true
-      },
       "clustering": {
         "accept_license": true,
         "is_server": true,
