@@ -35,6 +35,7 @@ The archive can be:
 
 ## Release Notes
 
+* v0.7: Remove secret in data bag, and update Chef cookbook to use Splunk binaries 6.3.2 (1.4.0-rarsan.4)
 * v0.6: Update Chef cookbook version to use Splunk binaries 6.3.1 (1.4.0-rarsan.3)
 * v0.5: Update Chef cookbook version for custom `SPLUNK_DB` path support (1.4.0-rarsan.2)
 * v0.4: Add placeholder Chef node for Cluster Master (applicable for chef local mode only)
