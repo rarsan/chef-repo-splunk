@@ -35,7 +35,8 @@ The archive can be:
 
 ## Release Notes
 
-* v0.9: Update Chef cookbook version to use Splunk 6.4.0 (1.5.0-rarsan.2)
+* v0.10: Updates to Chef cookbook including running commands as named user (1.5.0-rarsan.2)
+* v0.9: Update Chef cookbook version to use Splunk 6.4.0 (1.5.0-rarsan.1)
 * v0.8: Update Chef cookbook version to use Splunk 6.3.3 (1.4.0-rarsan.5)
 * v0.7: Remove secret in data bag, and update Chef cookbook to use Splunk binaries 6.3.2 (1.4.0-rarsan.4)
 * v0.6: Update Chef cookbook version to use Splunk binaries 6.3.1 (1.4.0-rarsan.3)
