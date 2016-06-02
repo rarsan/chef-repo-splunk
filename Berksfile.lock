@@ -1,8 +1,8 @@
 DEPENDENCIES
   chef-splunk
     git: https://github.com/rarsan/chef-splunk
-    revision: c69d1cd77b7b6f26015cea8224d6dfc21b88438d
-    branch: develop
+    revision: f0b5f1e3988007fc756e471822cdd8fccc9a98f3
+    tag: v1.5.0-rarsan.4
   chef-vault (~> 1.3.1)
 
 GRAPH
