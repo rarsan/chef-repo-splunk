@@ -5,8 +5,8 @@ A Chef repo for Splunk Enterprise cluster provisioning including all required ro
 Placeholder nodes are also provided in case you use Chef local mode. These node files can act as your inventory list: keep the nodes that correspond to your existing or desired Splunk deployment and update their attributes (i.e. 'ipaddress', 'fqdn') to match your environment.
 
 ## Cookbooks
-* chef-splunk (= 1.5.0-rarsan.4)
-* chef-vault (~> 1.3.1)
+* chef-splunk (= 1.6.0-rarsan.1)
+* chef-vault (~> 1.3.2)
 
 ## Roles
 * `splunk_server`: Generic Splunk Enterprise configuration (used for standalone deployment)
@@ -35,6 +35,7 @@ The archive can be:
 
 ## Release Notes
 
+* v0.13: Update Chef cookbook version to use Splunk 6.6 and other feature updates (1.6.0-rarsan.1)
 * v0.12: Update Chef cookbook version to use Splunk 6.4.1 and misc fixes (1.5.0-rarsan.4)
 * v0.11: Update Chef cookbook `setup_clustering` recipe (1.5.0-rarsan.3)
 * v0.10: Update Chef cookbook including running commands as named user (1.5.0-rarsan.2)
